@@ -29,7 +29,7 @@ buildingDamageMultiplier: 1
 hitEffect: {
 type: ExplosionEffect
 smokeColor: AFAFAF
-smokeRad: 35
+smokeRad: 55
 smokes: 15
 smokeSize: 10
 sparkColor: FFFFFF
@@ -43,8 +43,8 @@ lifetime: 80
 }
 fragBullets: 20
       fragBullet: {
-        speed: 10
-        lifetime: 10
+        speed: 60
+        lifetime: 1.5
         collidesGround: true
         collidesAir: true
         collides: true
