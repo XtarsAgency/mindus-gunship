@@ -11,7 +11,7 @@ shootSound: largeCannon
 
 ammoTypes: {
 	copper: {
-		type: MissileBulletType
+		type: BasicBulletType
 		damage: 20
 		speed: 40
 		lifetime: 80
