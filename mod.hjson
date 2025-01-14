@@ -1,0 +1,23 @@
+name: "sa-gunship"
+repo: "xtarsagency/mindus-gunship"
+minGameVersion: 145
+version: "1"
+
+displayName: "Sigma-Altair Gunship"
+author: 
+
+'''
+[[]scarlet]XSA
+'''
+
+subtitle: "It is not playable, yet"
+description:
+
+'''
+Play as a Constellation Class Sigma-Altair Nova gunship, with weapons, and more..
+-----------------------------
+Our Discord Server: https://discord.com/invite/KuV5r39cpY
+'''
+
+dependencies: []
+hideBrowser: true
