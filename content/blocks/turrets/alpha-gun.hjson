@@ -1,0 +1,29 @@
+type: ItemTurret
+category: turret
+size: 1
+health: 500
+
+reload: 30
+range: 0
+recoil: 0
+inaccuracy: 0.5
+shootSound: largeCannon
+
+ammoTypes: {
+	copper: {
+		type: MissileBulletType
+		damage: 20
+		speed: 10
+		lifetime: 8000
+		
+		width: 18
+		height: 23
+		
+		ammoMultiplier: 4
+trailColor: 840BDBFF
+      trailParam: 5
+      trailLength: 15
+      trailWidth: 5
+buildingDamageMultiplier: 0
+	}
+}
