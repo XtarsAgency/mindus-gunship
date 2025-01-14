@@ -45,8 +45,8 @@ lifetime: 280
 }
 fragBullets: 80
       fragBullet: {
-        speed: 500
-        lifetime: 1
+        speed: 50
+        lifetime: 10
         collidesGround: true
         collidesAir: true
         collides: true
