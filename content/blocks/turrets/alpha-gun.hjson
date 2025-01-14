@@ -3,7 +3,7 @@ category: turret
 size: 1
 health: 500
 
-reload: 15
+reload: 8
 range: 0
 recoil: 0
 inaccuracy: 0.5
@@ -21,7 +21,7 @@ ammoTypes: {
 		
 		ammoMultiplier: 1
 trailColor: FFFFFF
-      trailParam: 1
+      trailParam: 0.5
       trailLength: 2
       trailWidth: 0.75
 buildingDamageMultiplier: 1
