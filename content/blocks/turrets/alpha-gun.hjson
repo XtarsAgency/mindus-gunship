@@ -28,18 +28,18 @@ buildingDamageMultiplier: 1
 
 hitEffect: {
 type: ExplosionEffect
-smokeColor: 8F8F8F
-smokeRad: 4
+smokeColor: AFAFAF
+smokeRad: 12
 smokes: 5
-smokeSize: 2
+smokeSize: 5
 sparkColor: FFFFFF
-sparkLen: 10
-sparkStroke: 2
-sparkRad: 55
-sparks: 80
+sparkLen: 5
+sparkStroke: 1
+sparkRad: 60
+sparks: 10
 waveRad: 20
 waveLife: 20
-lifetime: 120
+lifetime: 50
 }
 	}
 }
