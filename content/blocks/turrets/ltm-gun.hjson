@@ -23,17 +23,17 @@ ammoTypes: {
 
 
 trailColor: FFFFFF
-      trailParam: 0.001
-      trailLength: 2
+      trailParam: 1
+      trailLength: 8
       trailWidth: 2
 buildingDamageMultiplier: 1
 
 hitEffect: {
 type: ExplosionEffect
 smokeColor: AFAFAF
-smokeRad: 60
+smokeRad: 240
 smokes: 45
-smokeSize: 15
+smokeSize: 40
 sparkColor: FFFFFF
 sparkLen: 6
 sparkStroke: 1
@@ -43,10 +43,10 @@ waveRad: 300
 waveLife: 50
 lifetime: 280
 }
-fragBullets: 80
+fragBullets: 120
       fragBullet: {
-        speed: 50
-        lifetime: 10
+        speed: 60
+        lifetime: 5
         collidesGround: true
         collidesAir: true
         collides: true
