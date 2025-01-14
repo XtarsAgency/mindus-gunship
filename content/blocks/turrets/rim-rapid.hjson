@@ -6,19 +6,19 @@ health: 500
 reload: 400
 range: 0
 recoil: 0
-inaccuracy: 4
+inaccuracy: 5
 shootSound: rim-rapid
   shoot:{
   shots: 10
-  shotDelay: 0.002
+  shotDelay: 0.02
 }
 
 ammoTypes: {
 	copper: {
 		type: MissileBulletType
 		damage: 350
-		speed: 10
-		lifetime: 80
+		speed: 35
+		lifetime: 90
 		
 		width: 20
 		height: 20
