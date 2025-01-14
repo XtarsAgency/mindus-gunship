@@ -7,7 +7,7 @@ reload: 8
 range: 0
 recoil: 0
 inaccuracy: 0.5
-shootSound: largeCannon
+shootSound: alpha-cannon
 
 ammoTypes: {
 	copper: {
