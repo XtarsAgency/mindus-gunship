@@ -3,7 +3,7 @@ category: turret
 size: 3
 health: 500
 
-reload: 100
+reload: 70
 range: 0
 recoil: 0
 inaccuracy: 0
@@ -29,9 +29,9 @@ buildingDamageMultiplier: 1
 hitEffect: {
 type: ExplosionEffect
 smokeColor: AFAFAF
-smokeRad: 12
+smokeRad: 35
 smokes: 15
-smokeSize: 8
+smokeSize: 10
 sparkColor: FFFFFF
 sparkLen: 6
 sparkStroke: 1
@@ -41,5 +41,20 @@ waveRad: 80
 waveLife: 20
 lifetime: 80
 }
+fragBullets: 20
+      fragBullet: {
+        speed: 10
+        lifetime: 10
+        collidesGround: true
+        collidesAir: true
+        collides: true
+        damage: 200
+        shootEffect: none
+        height: 1
+        width: 1
+        pierce: 20
+        pierceCap: 20
+	}
+
 	}
 }
