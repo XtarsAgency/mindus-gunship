@@ -1,0 +1,64 @@
+type: ItemTurret
+category: turret
+size: 3
+health: 500
+
+reload: 400
+range: 0
+recoil: 0
+inaccuracy: 4
+shootSound: rim-rapid
+  shoot:{
+  shots: 10
+  shotDelay: 0.002
+}
+
+ammoTypes: {
+	copper: {
+		type: MissileBulletType
+		damage: 350
+		speed: 10
+		lifetime: 80
+		
+		width: 20
+		height: 20
+		
+		ammoMultiplier: 1
+trailColor: FFFFFF
+      trailParam: 0.001
+      trailLength: 5
+      trailWidth: 2
+buildingDamageMultiplier: 1
+
+hitEffect: {
+type: ExplosionEffect
+smokeColor: AFAFAF
+smokeRad: 40
+smokes: 20
+smokeSize: 15
+sparkColor: FFFFFF
+sparkLen: 6
+sparkStroke: 1
+sparkRad: 60
+sparks: 5
+waveRad: 120
+waveLife: 10
+lifetime: 80
+}
+fragBullets: 50
+      fragBullet: {
+        speed: 60
+        lifetime: 1
+        collidesGround: true
+        collidesAir: true
+        collides: true
+        damage: 350
+        shootEffect: none
+        height: 1
+        width: 1
+        pierce: 500
+        pierceCap: 500
+	}
+
+	}
+}
