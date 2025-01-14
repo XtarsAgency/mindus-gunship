@@ -10,7 +10,7 @@ inaccuracy: 5
 shootSound: rim-rapid
   shoot:{
   shots: 10
-  shotDelay: 0.02
+  shotDelay: 0.1
 }
 
 ammoTypes: {
