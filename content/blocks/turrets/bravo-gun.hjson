@@ -1,0 +1,45 @@
+type: ItemTurret
+category: turret
+size: 3
+health: 500
+
+reload: 100
+range: 0
+recoil: 0
+inaccuracy: 0
+shootSound: bravo-cannon
+
+ammoTypes: {
+	copper: {
+		type: BasicBulletType
+		damage: 200
+		speed: 10
+		lifetime: 80
+		
+		width: 20
+		height: 20
+		
+		ammoMultiplier: 1
+trailColor: FFFFFF
+      trailParam: 0.001
+      trailLength: 2
+      trailWidth: 2
+buildingDamageMultiplier: 1
+
+hitEffect: {
+type: ExplosionEffect
+smokeColor: AFAFAF
+smokeRad: 12
+smokes: 15
+smokeSize: 8
+sparkColor: FFFFFF
+sparkLen: 6
+sparkStroke: 1
+sparkRad: 60
+sparks: 5
+waveRad: 80
+waveLife: 20
+lifetime: 80
+}
+	}
+}
