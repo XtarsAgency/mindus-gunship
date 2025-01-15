@@ -13,8 +13,8 @@ ammoTypes: {
 	bravo-round: {
 		type: BasicBulletType
 		damage: 200
-		speed: 10
-		lifetime: 80
+		speed: 20
+		lifetime: 200
 		
 		width: 20
 		height: 20
@@ -41,7 +41,7 @@ waveRad: 80
 waveLife: 20
 lifetime: 80
 }
-fragBullets: 20
+fragBullets: 45
       fragBullet: {
         speed: 60
         lifetime: 1.5
