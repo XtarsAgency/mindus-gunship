@@ -10,7 +10,7 @@ outlineColor: 2d2f39
 
 weapons: [
     {
-        name: rifle
+        name: ag-rifle
         top: false
         x: 2
         y: 0
@@ -29,4 +29,4 @@ weapons: [
 		    height: 3
 		}
 }
-  ]
+]
