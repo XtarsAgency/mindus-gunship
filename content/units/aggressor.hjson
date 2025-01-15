@@ -1,4 +1,4 @@
-type: Mech
+type: mech
 health: 40
 armor: 0
 hitSize: 10
