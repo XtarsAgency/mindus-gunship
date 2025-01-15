@@ -10,7 +10,7 @@ inaccuracy: 0
 shootSound: ltm-launch
 
 ammoTypes: {
-	copper: {
+	ltm-missile: {
 		type: MissileBulletType
 		damage: 600
 		speed: 15
