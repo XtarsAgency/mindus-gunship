@@ -15,6 +15,7 @@ ammoTypes: {
 		damage: 20
 		speed: 40
 		lifetime: 80
+                scaleLife: true
 		
 		width: 8
 		height: 10
