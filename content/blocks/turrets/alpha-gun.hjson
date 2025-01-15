@@ -1,6 +1,6 @@
 type: ItemTurret
 category: turret
-size: 1
+size: 2
 health: 500
 
 reload: 8
@@ -10,7 +10,7 @@ inaccuracy: 0.5
 shootSound: alpha-cannon
 
 ammoTypes: {
-	copper: {
+	alpha-round: {
 		type: BasicBulletType
 		damage: 20
 		speed: 40
