@@ -18,7 +18,9 @@ ammoTypes: {
 		hitSound: ltm-explosion
 		width: 20
 		height: 40
-		
+                incendChance: 90
+                incendAmount: 45
+                incendSpread: 15
 		ammoMultiplier: 1
 
 
