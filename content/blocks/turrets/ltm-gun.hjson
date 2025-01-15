@@ -18,6 +18,7 @@ ammoTypes: {
 		hitSound: ltm-explosion
 		width: 20
 		height: 40
+                scaleLife: true
 		
 		ammoMultiplier: 1
 
