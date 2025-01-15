@@ -6,11 +6,11 @@ health: 500
 reload: 400
 range: 0
 recoil: 0
-inaccuracy: 5
+inaccuracy: 10
 shootSound: rim-rocket
   shoot:{
-  shots: 10
-  shotDelay: 0.1
+  shots: 12
+  shotDelay: 0.15
 }
 
 ammoTypes: {
