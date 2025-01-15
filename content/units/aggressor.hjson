@@ -1,0 +1,32 @@
+type: Mech
+health: 40
+armor: 0
+hitSize: 10
+
+speed: 2
+rotateSpeed: 5
+
+outlineColor: 2d2f39
+
+weapons: [
+    {
+        name: rifle
+        top: false
+        x: 2
+        y: 0
+		
+	    mirror: false
+	    alternate: false
+        reload: 50
+        shootSound: "pew"
+        bullet: {
+            type: BasicBulletType
+            damage: 5
+	        lifetime: 30
+	        speed: 3.5
+			
+			width: 2
+		    height: 3
+		}
+}
+  ]
