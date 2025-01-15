@@ -20,7 +20,7 @@ ammoTypes: {
 		height: 40
                 incendChance: 90
                 incendAmount: 45
-                incendSpread: 15
+                incendSpread: 90
 		ammoMultiplier: 1
 
 
