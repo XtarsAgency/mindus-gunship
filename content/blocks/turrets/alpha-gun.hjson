@@ -4,7 +4,7 @@ size: 2
 health: 500
 
 reload: 8
-range: 0
+range: 800
 recoil: 0
 inaccuracy: 0.5
 shootSound: alpha-cannon
