@@ -10,7 +10,7 @@ inaccuracy: 0
 shootSound: bravo-cannon
 
 ammoTypes: {
-	copper: {
+	bravo-round: {
 		type: BasicBulletType
 		damage: 200
 		speed: 10
