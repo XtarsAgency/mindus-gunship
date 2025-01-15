@@ -15,13 +15,12 @@ ammoTypes: {
 		damage: 20
 		speed: 40
 		lifetime: 80
-                scaleLife: true
 		
 		width: 8
 		height: 10
 		
 		ammoMultiplier: 1
-trailColor: FFFFFF99
+trailColor: FFFFFF
       trailParam: 0.5
       trailLength: 2
       trailWidth: 0.75
@@ -33,7 +32,7 @@ smokeColor: AFAFAF
 smokeRad: 12
 smokes: 5
 smokeSize: 5
-sparkColor: FFFFFF
+sparkColor: FFFFFF99
 sparkLen: 5
 sparkStroke: 1
 sparkRad: 60
