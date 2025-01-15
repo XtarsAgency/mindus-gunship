@@ -20,7 +20,7 @@ ammoTypes: {
 		height: 20
 		
 		ammoMultiplier: 1
-trailColor: FFFFFF99
+trailColor: FFFFFF
       trailParam: 0.001
       trailLength: 2
       trailWidth: 2
@@ -28,7 +28,7 @@ buildingDamageMultiplier: 1
 
 hitEffect: {
 type: ExplosionEffect
-smokeColor: AFAFAF
+smokeColor: AFAFAF99
 smokeRad: 55
 smokes: 15
 smokeSize: 10
