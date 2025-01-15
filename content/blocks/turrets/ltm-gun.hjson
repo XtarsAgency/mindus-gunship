@@ -31,7 +31,7 @@ buildingDamageMultiplier: 1
 
 hitEffect: {
 type: ExplosionEffect
-smokeColor: AFAFAF
+smokeColor: AFAFAF99
 smokeRad: 240
 smokes: 45
 smokeSize: 40
