@@ -21,7 +21,7 @@ ammoTypes: {
 		height: 10
 		
 		ammoMultiplier: 1
-trailColor: FFFFFF
+trailColor: FFFFFF99
       trailParam: 0.5
       trailLength: 2
       trailWidth: 0.75
