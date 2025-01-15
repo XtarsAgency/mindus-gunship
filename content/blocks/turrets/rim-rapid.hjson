@@ -7,7 +7,7 @@ reload: 400
 range: 0
 recoil: 0
 inaccuracy: 5
-shootSound: rim-rapid
+shootSound: rim-rocket
   shoot:{
   shots: 10
   shotDelay: 0.1
