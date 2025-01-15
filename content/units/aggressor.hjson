@@ -3,7 +3,7 @@ health: 40
 armor: 0
 hitSize: 10
 
-speed: 2
+speed: 0.5
 rotateSpeed: 5
 
 outlineColor: 2d2f39
