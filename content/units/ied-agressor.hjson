@@ -1,0 +1,35 @@
+type: mech
+health: 20
+armor: 0
+hitSize: 10
+
+speed: 0.8
+rotateSpeed: 5
+
+outlineColor: 2d2f39
+
+weapons: [
+    {
+        name: ied-explosion
+        top: false
+        x: 0
+        y: 0
+		
+	    mirror: false
+	    alternate: false
+        reload: 50
+        shootSound: "bang"
+        bullet: {
+            type: ExplosionBulletType
+            damage: 3000
+            splashDamage: 3000
+            splashDamageRadius: 40
+	        lifetime: 1
+	        speed: 1
+              killShooter: true
+			
+			width: 2
+		    height: 2
+		}
+}
+]
