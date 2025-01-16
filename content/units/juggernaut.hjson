@@ -1,0 +1,32 @@
+type: mech
+health: 120
+armor: 0
+hitSize: 15
+
+speed: 0.166
+rotateSpeed: 1.7
+
+outlineColor: 2d2f39
+
+weapons: [
+    {
+        name: ag-rifle
+        top: false
+        x: 2.5
+        y: 0
+		
+	    mirror: false
+	    alternate: false
+        reload: 50
+        shootSound: "pew"
+        bullet: {
+            type: BasicBulletType
+            damage: 5
+	        lifetime: 30
+	        speed: 3.5
+			
+			width: 2
+		    height: 3
+		}
+}
+]
