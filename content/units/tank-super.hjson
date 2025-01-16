@@ -23,7 +23,23 @@ weapons: [
             type: BasicBulletType
             damage: 110
 	        lifetime: 100
-	        speed: 1.5
+	        speed: 2.5
+                inaccuracy: 4
+hitEffect: {
+type: ExplosionEffect
+smokeColor: AFAFAF99
+smokeRad: 70
+smokes: 25
+smokeSize: 8
+sparkColor: FFFFFF
+sparkLen: 10
+sparkStroke: 2
+sparkRad: 70
+sparks: 80
+waveRad: 20
+waveLife: 20
+lifetime: 120
+}
 			
 			width: 5
 		    height: 20
