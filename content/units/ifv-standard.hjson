@@ -1,0 +1,32 @@
+type: tank
+health: 300
+armor: 0
+hitSize: 10
+
+speed: 0.3
+rotateSpeed: 5
+
+outlineColor: 2d2f39
+
+weapons: [
+    {
+        name: machine-gun
+        top: true
+        x: 0
+        y: 0
+		
+	    mirror: false
+	    alternate: false
+        reload: 25
+        shootSound: "pew"
+        bullet: {
+            type: BasicBulletType
+            damage: 25
+	        lifetime: 30
+	        speed: 3.5
+			
+			width: 8
+		    height: 6
+		}
+}
+]
