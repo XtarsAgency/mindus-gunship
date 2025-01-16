@@ -22,12 +22,27 @@ weapons: [
         bullet: {
             type: ExplosionBulletType
             damage: 3000
-            splashDamage: 3000
-            splashDamageRadius: 40
+            splashDamage: 2000
+            splashDamageRadius: 120
 	        lifetime: 1
 	        speed: 1
               killShooter: true
-			
+hitEffect: {
+type: ExplosionEffect
+smokeColor: AFAFAF99
+smokeRad: 45
+smokes: 22
+smokeSize: 5
+sparkColor: FFFFFF99
+sparkLen: 10
+sparkStroke: 2
+sparkRad: 55
+sparks: 80
+waveRad: 20
+waveLife: 20
+lifetime: 120
+}
+
 			width: 2
 		    height: 2
 		}
