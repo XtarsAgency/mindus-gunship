@@ -23,20 +23,20 @@ weapons: [
             type: ExplosionBulletType
             damage: 3000
             splashDamage: 2000
-            splashDamageRadius: 120
+            splashDamageRadius: 300
 	        lifetime: 1
 	        speed: 1
               killShooter: true
 hitEffect: {
 type: ExplosionEffect
 smokeColor: AFAFAF99
-smokeRad: 45
-smokes: 22
-smokeSize: 5
+smokeRad: 150
+smokes: 25
+smokeSize: 10
 sparkColor: FFFFFF99
 sparkLen: 10
 sparkStroke: 2
-sparkRad: 55
+sparkRad: 200
 sparks: 80
 waveRad: 20
 waveLife: 20
