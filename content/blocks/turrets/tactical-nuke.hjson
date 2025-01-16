@@ -12,13 +12,15 @@ shootSound: ltm-launch
 ammoTypes: {
 	copper: {
 		type: MissileBulletType
-		damage: 20000
+		damage: 30000
 		speed: 10
 		lifetime: 500
 		hitSound: nuke-explosion
 		width: 50
 		height: 75
-		
+		incendChance: 100
+                incendAmount: 720
+                incendSpread: 720
 		ammoMultiplier: 1
 
 
@@ -43,7 +45,7 @@ waveRad: 3000
 waveLife: 50
 lifetime: 500
 }
-fragBullets: 360
+fragBullets: 540
       fragBullet: {
         speed: 75
         lifetime: 10
