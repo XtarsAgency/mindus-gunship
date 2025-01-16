@@ -11,7 +11,7 @@ outlineColor: 2d2f39
 weapons: [
     {
         name: machine-gun
-        top: false
+        top: true
         x: 0
         y: -2
 		
