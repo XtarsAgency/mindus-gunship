@@ -10,7 +10,7 @@ outlineColor: 2d2f39
 
 weapons: [
     {
-        name: machine-gun
+        name: tank-cannon
         top: true
         x: 0
         y: 0
@@ -21,7 +21,7 @@ weapons: [
         shootSound: "largeExplosion"
         bullet: {
             type: BasicBulletType
-            damage: 500
+            damage: 75
 	        lifetime: 100
 	        speed: 5
           inaccuracy: 2
