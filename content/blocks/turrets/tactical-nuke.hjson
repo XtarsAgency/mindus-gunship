@@ -10,7 +10,7 @@ inaccuracy: 0
 shootSound: ltm-launch
 
 ammoTypes: {
-	copper: {
+	tac-nuke: {
 		type: MissileBulletType
 		damage: 50000
 		speed: 10
