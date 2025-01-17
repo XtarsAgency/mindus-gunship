@@ -12,7 +12,7 @@ shootSound: ltm-launch
 ammoTypes: {
 	copper: {
 		type: MissileBulletType
-		damage: 30000
+		damage: 50000
 		speed: 10
 		lifetime: 500
 		hitSound: nuke-explosion
@@ -32,7 +32,7 @@ buildingDamageMultiplier: 1
 
 hitEffect: {
 type: ExplosionEffect
-smokeColor: AFAFAF
+smokeColor: AFAFAFBB
 smokeRad: 700
 smokes: 180
 smokeSize: 100
@@ -45,17 +45,17 @@ waveRad: 3000
 waveLife: 50
 lifetime: 500
 }
-fragBullets: 540
+fragBullets: 600
       fragBullet: {
         speed: 75
         lifetime: 10
         collidesGround: true
         collidesAir: true
         collides: true
-        damage: 20000
+        damage: 45000
         shootEffect: none
-        height: 1
-        width: 1
+        height: 5
+        width: 20
         pierce: 50000
         pierceCap: 50000
 	}
