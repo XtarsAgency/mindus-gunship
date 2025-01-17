@@ -1,7 +1,7 @@
 type: tank
 health: 950
 armor: 0
-hitSize: 10
+hitSize: 20
 
 speed: 0.2
 rotateSpeed: 5
