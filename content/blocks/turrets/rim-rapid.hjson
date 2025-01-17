@@ -14,7 +14,7 @@ shootSound: rim-rocket
 }
 
 ammoTypes: {
-	copper: {
+	rim-rockets: {
 		type: MissileBulletType
 		damage: 350
 		speed: 35
