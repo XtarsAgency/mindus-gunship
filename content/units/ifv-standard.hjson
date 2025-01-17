@@ -1,5 +1,5 @@
 type: tank
-health: 300
+health: 550
 armor: 0
 hitSize: 10
 
