@@ -48,7 +48,7 @@ fragBullets: 45
         collidesGround: true
         collidesAir: true
         collides: true
-        damage: 200
+        damage: 4.4
         shootEffect: none
         height: 1
         width: 1
